@@ -1,0 +1,109 @@
+.indexbackground {
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  text-decoration: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+#menu-checkbox {
+  display: none;
+}
+
+header {
+  background-color: #ffffff;
+  min-width: 493px;
+  box-shadow: 0px 0px 3px 0px black;
+  height: 80px;
+}
+
+label img {
+  float: right;
+  margin-top: 20px;
+}
+
+.logo {
+  max-width: 400px;
+}
+
+nav {
+  position: absolute;
+  display: none;
+  background-color: #ffffff;
+  border-radius: 3px;
+  width: 97%;
+  margin-top: 5px;
+  min-width: 493px;
+  line-height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  box-shadow: 0px 0px 3px 0px black;
+}
+
+nav li {
+  display: block;
+  text-align: center;
+}
+
+.nav-button:hover {
+  color: #52bdeb;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  width: 50%;
+  margin: 0 25% 0 25%;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+@media (min-width: 900px) {
+  nav {
+    position: initial;
+
+    box-shadow: 0px 0px 0px 0px black;
+  }
+
+  hr {
+    display: none;
+  }
+
+  nav li {
+    display: inline;
+    margin-right: 40px;
+    float: right;
+  }
+
+  .burgermenu {
+    display: none;
+  }
+
+  header {
+    display: flex;
+  }
+
+  nav a {
+    padding-right: 20px;
+  }
+
+  .nav-button:hover {
+    padding-left: 10px;
+  }
+}
