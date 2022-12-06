@@ -102,18 +102,18 @@ hr {
 }
 
 .cta-button {
-  background-color: #52bdeb;
+  background-color: #b10000;
   color: #ffffff;
   padding: 30px;
   margin: 50px;
   letter-spacing: 4px;
   font-size: 25px;
   text-decoration: none;
-  text-shadow: 2px 2px 5px #000000;
 }
 
 .cta-button:hover {
   font-weight: bolder;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 /* Media quieries */
