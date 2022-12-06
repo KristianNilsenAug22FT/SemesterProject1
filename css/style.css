@@ -17,8 +17,12 @@ header {
   background-color: #ffffff;
   min-width: 493px;
   box-shadow: 0px 0px 3px 0px black;
-  height: 80px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
   padding: 6px;
+  position: fixed;
+  z-index: 1;
 }
 
 label img {
@@ -36,13 +40,12 @@ nav {
   background-color: #ffffff;
   border-radius: 3px;
   width: 97%;
-  margin-top: 5px;
+  margin-top: 10px;
   min-width: 493px;
   line-height: 50px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   box-shadow: 0px 0px 3px 0px black;
-  z-index: 1;
 }
 
 nav li {
@@ -60,16 +63,18 @@ nav li {
   color: black;
 }
 
-hr {
-  width: 50%;
-  margin: 0 25% 0 25%;
-  border: 0;
+.line:after {
+  content: "";
+  display: block;
   height: 1px;
-  background: #333;
-  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
-  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
-  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
-  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+  width: 40%;
+  margin: 10px;
+  margin: auto;
+  background: #000000;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
 }
 
 /* Index page */
@@ -92,7 +97,7 @@ hr {
   letter-spacing: 1px;
   margin: auto;
   text-shadow: 2px 2px 5px #000000;
-  margin-top: 60px;
+  margin-top: 150px;
   box-shadow: 0px 0px 5px 0px black;
 }
 
@@ -120,6 +125,27 @@ hr {
 .cta-button:hover {
   font-weight: bolder;
   text-shadow: 2px 2px 5px #000000;
+}
+
+.teachers {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #367d9c;
+  letter-spacing: 1px;
+  line-height: 25px;
+  box-shadow: 0px 0px 5px 0px black;
+  right: 0px;
+  left: 0px;
+  color: #ffffff;
+}
+
+.teachers h2 {
+  margin: auto;
+}
+
+.teachers img {
+  max-width: 400px;
 }
 
 /* Media quieries */
@@ -160,7 +186,15 @@ hr {
 
   .h1index {
     margin: inherit;
-    margin-top: 60px;
+    margin-top: 150px;
     margin-left: 60px;
+  }
+
+  .line:after {
+    display: none;
+  }
+
+  .teachers img {
+    max-width: 600px;
   }
 }
