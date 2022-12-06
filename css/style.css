@@ -109,11 +109,11 @@ hr {
   letter-spacing: 4px;
   font-size: 25px;
   text-decoration: none;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 .cta-button:hover {
   font-weight: bolder;
-  text-shadow: 2px 2px 5px #000000;
 }
 
 /* Media quieries */
