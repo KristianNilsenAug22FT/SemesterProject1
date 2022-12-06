@@ -81,7 +81,7 @@ hr {
   background-position-x: center;
 }
 
-.explorequote {
+.h1index {
   background-color: #367d9c;
   color: #ffffff;
   font-size: 17pt;
@@ -158,7 +158,7 @@ hr {
 
   /* Index */
 
-  .explorequote {
+  .h1index {
     margin: inherit;
     margin-top: 60px;
     margin-left: 60px;
