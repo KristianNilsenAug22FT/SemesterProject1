@@ -77,6 +77,10 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
+h2 {
+  letter-spacing: 5px;
+}
+
 /* Index page */
 
 .indexbackground {
@@ -129,23 +133,40 @@ h3 {
 
 .teachers {
   margin-top: 100px;
-  display: flex;
-  flex-wrap: wrap;
   background-color: #367d9c;
   letter-spacing: 1px;
   line-height: 25px;
-  box-shadow: 0px 0px 5px 0px black;
-  right: 0px;
-  left: 0px;
+  box-shadow: 0px 0px 10px 0px #ffffff;
   color: #ffffff;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.teacherslink {
+  text-decoration: none;
 }
 
 .teachers h2 {
   margin: auto;
+  text-align: center;
+}
+
+.teachers h3 {
+  margin: 10px;
+  max-width: 600px;
 }
 
 .teachers img {
   max-width: 400px;
+  max-height: 300px;
+}
+
+.teacherstext {
+  margin-top: 30px;
+  display: block;
+  margin-left: 20px;
+  size: cover;
+  margin: auto;
 }
 
 /* Media quieries */
@@ -196,5 +217,14 @@ h3 {
 
   .teachers img {
     max-width: 600px;
+  }
+}
+
+@media (min-width: 964px) {
+  .teachers h3 {
+    max-width: 1000px;
+  }
+
+  .teachers {
   }
 }
