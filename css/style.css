@@ -14,8 +14,6 @@ body {
   display: none;
 }
 
-
-
 header {
   background-color: #ffffff;
   min-width: 493px;
@@ -220,7 +218,6 @@ footer {
   flex-wrap: wrap;
   flex-direction: column-reverse;
   justify-content: center;
-
 }
 
 .kidslink {
@@ -235,10 +232,7 @@ footer {
   object-fit: cover;
   margin: auto;
   padding-top: 10px;
-  
 }
-
-
 
 .researchers {
   margin-top: 100px;
@@ -267,8 +261,6 @@ footer {
   object-fit: cover;
   margin: auto;
 }
-
-
 
 /* Media quieries */
 
@@ -304,7 +296,7 @@ footer {
     padding-right: 20px;
   }
 
- /* Index */
+  /* Index */
 
   .h1index {
     margin: inherit;
@@ -318,23 +310,18 @@ footer {
 
   .indexctatext {
     margin: auto;
-    
   }
-
-
 }
 
 @media (min-width: 964px) {
   .indexlinks h3 {
     max-width: 1000px;
   }
-
-
 }
 
 @media (min-width: 700px) {
   .indexlinks h3 {
-    display: block;   
+    display: block;
   }
 
   .teachers {
