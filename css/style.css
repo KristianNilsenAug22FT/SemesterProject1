@@ -258,6 +258,7 @@ footer {
 }
 
 .researchers img {
+  padding-top: 10px;
   max-width: 300px;
   max-height: 300px;
   object-fit: cover;
