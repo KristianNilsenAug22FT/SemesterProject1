@@ -51,6 +51,7 @@ nav {
   line-height: 50px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  font-size: 17px;
   box-shadow: 0px 0px 3px 0px black;
   text-align: center;
 }
@@ -154,7 +155,7 @@ footer ul {
 }
 
 .h1index {
-  background-color: #367d9c;
+  background-color: #ffd900;
   color: #ffffff;
   font-size: 17pt;
   max-width: 300px;
@@ -195,7 +196,8 @@ footer ul {
 }
 
 .indexlinks {
-  background-color: #ffffff;
+  background-image: url(/images/indexlinkback.jpg);
+  border-top: 5px solid #ffd900;
 }
 
 .indexlinks h3 {
@@ -217,14 +219,18 @@ footer ul {
   margin-left: 20px;
 }
 
+.indexctatext:hover h2 {
+  text-shadow: 2px 2px 5px #000000;
+  color: #ffffff;
+}
+
 .teachers {
   margin-top: 100px;
-  background-color: #367d9c;
+  background-color: #4cc1f3;
   letter-spacing: 1px;
   line-height: 25px;
-  box-shadow: 0px 0px 10px 0px #000000;
+  box-shadow: 0px 0px 3px 0px #000000;
   border: 2px solid #000000;
-  border-radius: 10px;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -236,12 +242,7 @@ footer ul {
   text-decoration: none;
 }
 
-.indexctatext:hover h2 {
-  text-shadow: 2px 2px 5px #000000;
-  color: #ffffff;
-}
-
-.teachers img {
+.indexlinks img {
   max-width: 300px;
   max-height: 300px;
   object-fit: cover;
@@ -251,11 +252,10 @@ footer ul {
 
 .kids {
   margin-top: 100px;
-  background-color: #367d9c;
+  background-color: #4cc1f3;
   letter-spacing: 1px;
   line-height: 25px;
   border: 2px solid #000000;
-  border-radius: 10px;
   box-shadow: 0px 0px 10px 0px #000000;
   color: #ffffff;
   display: flex;
@@ -280,12 +280,11 @@ footer ul {
 
 .researchers {
   margin-top: 100px;
-  background-color: #367d9c;
+  background-color: #4cc1f3;
   letter-spacing: 1px;
   line-height: 25px;
   box-shadow: 0px 0px 10px 0px #000000;
   border: 2px solid #000000;
-  border-radius: 10px;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -344,18 +343,15 @@ footer ul {
 @media (min-width: 1200px) {
   nav {
     position: initial;
-    box-shadow: 0px 0px 0px 0px black;
     display: inline;
-  }
-
-  hr {
-    display: none;
+    box-shadow: 0px 0px 0px 0px black;
   }
 
   nav li {
     display: inline;
     margin-right: 40px;
     float: right;
+    margin-top: 10px;
   }
 
   .burgermenu {
@@ -385,10 +381,6 @@ footer ul {
     margin-left: 60px;
   }
 
-  .line:after {
-    display: none;
-  }
-
   .indexctatext {
     margin-left: 20px;
     margin-right: 10px;
@@ -397,7 +389,14 @@ footer ul {
 
 @media (min-width: 964px) {
   .indexlinks h3 {
-    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .line:after {
+    display: none;
   }
 }
 
@@ -406,22 +405,42 @@ footer ul {
     display: block;
   }
 
+  .indexlinks {
+    padding-top: 10px;
+    box-shadow: 0px 0px 5px 0px black;
+    margin-top: 100px;
+  }
+
+  .indexlinks a {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+  }
+
   .teachers {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: initial;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
   }
 
   .teachers img {
     padding-top: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    position: relative;
+    left: 0px;
   }
 
   .kids {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: initial;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 65px;
   }
 
   .kids img {
@@ -433,6 +452,9 @@ footer ul {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: initial;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 65px;
   }
 
   .researchers img {
@@ -446,7 +468,7 @@ footer ul {
   }
 }
 
-/* Index */
+/* Visit page */
 
 @media (min-width: 700px) {
   .visitus {
