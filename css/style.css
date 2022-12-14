@@ -32,10 +32,11 @@ header {
 .burgermenu {
   float: right;
   margin-top: 20px;
+  visibility: visible;
 }
 
 label {
-  color: #ffffff;
+  visibility: hidden;
 }
 
 .logo {
