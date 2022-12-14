@@ -63,6 +63,8 @@ nav {
 
 nav li {
   display: block;
+  position: relative;
+  right: 17px;
 }
 
 .nav-button:hover {
