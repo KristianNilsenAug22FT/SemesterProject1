@@ -2,8 +2,8 @@
 /* same on all pages */
 
 body {
-  font-family: "Luckiest Guy", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 0 0 0 0;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -35,7 +35,7 @@ header {
   visibility: visible;
 }
 
-label {
+.labelcheck {
   visibility: hidden;
 }
 
@@ -88,12 +88,21 @@ nav li {
 }
 
 h3,
-h4 {
+h4,
+h2 {
   font-family: "Roboto", sans-serif;
 }
 
-h2 {
-  letter-spacing: 5px;
+.h1red {
+  color: #ffffff;
+  text-align: center;
+  background-color: #b10000;
+  display: block;
+  margin: auto;
+  text-shadow: 2px 2px 5px #000000;
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .facetweet {
@@ -154,11 +163,12 @@ footer ul {
 
 /* Index page */
 
-.indexbackground {
+.indexonly {
   background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
   background-position-y: -300px;
   background-position-x: center;
+  font-family: "Luckiest Guy", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .h1index {
@@ -219,6 +229,7 @@ footer ul {
   color: #ffffff;
   text-shadow: 2px 2px 5px #b10000;
   margin-bottom: 20px;
+  font-family: "Luckiest Guy", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .indexctatext {
@@ -321,18 +332,6 @@ footer ul {
   background-position-x: center;
 }
 
-.visit {
-  color: #ffffff;
-  text-align: center;
-  font-size: 40px;
-  background-color: #b10000;
-  display: block;
-  margin: auto;
-  text-shadow: 2px 2px 5px #000000;
-  width: 50%;
-  padding-top: 5px;
-}
-
 .visitus {
   background-color: #ffffff;
   display: flex;
@@ -342,13 +341,68 @@ footer ul {
   margin: auto;
 }
 
-.visitus h2 {
-  font-family: "Roboto", sans-serif;
-  letter-spacing: normal;
-}
-
 .visitus h3 {
   font-weight: normal;
+}
+
+/* Get involved page */
+
+.involvedbackground {
+  background-image: url(/images/involvedback.jpg);
+  background-size: cover;
+}
+
+.getinvolved h3 {
+  font-weight: normal;
+}
+
+.getinvolved {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+.form__input {
+  display: block;
+  margin: auto;
+  min-height: 22px;
+  margin-bottom: 30px;
+}
+
+.contactform {
+  background-color: #07475f;
+  color: #ffffff;
+  font-size: 25px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+  top: 20px;
+}
+
+.contactform h2 {
+  letter-spacing: normal;
+  font-size: 25px;
+  font-weight: 100;
+  margin: 20px;
+}
+
+.submit {
+  background-color: #b10000;
+  color: #ffffff;
+  letter-spacing: 4px;
+  font-size: 25px;
+  text-decoration: none;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  min-width: 150px;
+  text-align: center;
+  margin: 10px;
 }
 
 /* Media quieries */
@@ -367,7 +421,7 @@ footer ul {
     display: inline;
     margin-right: 40px;
     float: right;
-    margin-top: 10px;
+    margin-top: -9px;
   }
 
   .burgermenu {
@@ -489,5 +543,24 @@ footer ul {
 @media (min-width: 700px) {
   .visitus {
     width: 50%;
+  }
+}
+
+/* Get involved page */
+
+@media (min-width: 1200px) {
+  .contactform {
+    display: flex;
+    margin: auto;
+    min-width: 700px;
+  }
+
+  .contactform form {
+    margin: 20px;
+  }
+
+  .contactform h2 {
+    margin: auto;
+    max-width: 500px;
   }
 }

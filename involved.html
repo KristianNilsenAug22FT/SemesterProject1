@@ -10,11 +10,11 @@
     <link href="css/style.css" rel="stylesheet" />
     <title>Community Science Museum | Get involved</title>
   </head>
-  <body class="indexbackground">
+  <body class="involvedbackground">
     <header>
       <a href="index.html"><img src="images/logo.png" alt="Museum Logo" class="logo" /></a>
       <input type="checkbox" id="menu-checkbox" />
-      <label for="menu-checkbox"><img src="images/burger.png" alt="Navigation Menu" class="burgermenu" />B</label>
+      <label for="menu-checkbox" class="labelcheck"><img src="images/burger.png" alt="Navigation Menu" class="burgermenu" />B</label>
       <nav>
         <ul>
           <li class="line"><a href="events.html" class="nav-button">Events</a></li>
@@ -24,5 +24,78 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <h1 class="h1red">Get involved</h1>
+      <section class="getinvolved">
+        <img src="/images/involved.jpg" />
+        <h2>Support</h2>
+        <h3>
+          There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the
+          whole community. You can also support us by donating items of interest to the museum’s collections. If you have some item or collection that you think
+          others would enjoy, please let us know by contacting our Collections Department and they will be able to assist you.
+        </h3>
+        <h2>Volunteer</h2>
+        <h3>
+          A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy. Volunteering has its
+          perks including getting to see behind the scenes of a working museum, access to staff-only lectures, and a monthly lunch where all staff and
+          volunteers come together to discuss ideas for future exhibits and strategies for the museum. You can help volunteer in a number of different spheres.
+          Please contact us if you’d like to find out more about how you can get involved.
+        </h3>
+        <h2>Internships</h2>
+        <h3>
+          Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just
+          the right person to enjoy an internship at the museum. You’ll be learning from a number of different academics and people who are passionate about
+          science and sharing it with the wider community.
+        </h3>
+        <div class="contactform">
+          <h2>Fill out the form and we will contact you</h2>
+          <form action="form-success.php" method="GET">
+            <fieldset>
+              <label for="name">Your name</label>
+              <input type="text" name="name" id="name" class="form__input" required />
+              <label for="phone">Your phone number</label>
+              <input type="tel" name="phone" id="phone" class="form__input" />
+              <label for="email">Your email</label>
+              <input type="email" name="email" id="email" class="form__input" required />
+            </fieldset>
+            <input type="submit" value="SUBMIT" class="submit" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contact">
+        <div class="openinghours">
+          <ul class="days" title="openinghours">
+            <li>Monday:</li>
+            <li>Tuesday:</li>
+            <li>Wednesday:</li>
+            <li>Thursday:</li>
+            <li>Friday:</li>
+            <li>Saturday:</li>
+            <li>Sunday:</li>
+          </ul>
+          <ul class="hours">
+            <li>Closed</li>
+            <li>10:00-16:00</li>
+            <li>10:00-16:00</li>
+            <li>10:00-16:00</li>
+            <li>10:00-19:00</li>
+            <li>09:00-16:00</li>
+            <li>09:00-13:00</li>
+          </ul>
+        </div>
+        <div class="address">
+          <h3>Our Address:</h3>
+          <p>Jernbaneveien 1</p>
+          <p>3055 Somewhere</p>
+        </div>
+      </div>
+      <div class="facetweet">
+        &copy; Copyright Rainy Days
+        <a href="www.facebook.com/museum" class="footerlink"><img src="/images/facebook-logo.jpg" alt="Facebook logo" />Visit out Facebook page</a>
+        <a href="www.twitter.com/museum" class="footerlink"><img src="/images/twitter-logo.jpg" alt="Twitter logo" />Visit our Twitter page</a>
+      </div>
+    </footer>
   </body>
 </html>
