@@ -138,6 +138,11 @@ footer ul {
   display: flex;
 }
 
+.days {
+  list-style-type: none;
+  text-align: end;
+}
+
 .hours {
   list-style-type: none;
   position: relative;
@@ -405,6 +410,47 @@ footer ul {
   margin: 10px;
 }
 
+/* Explore Page */
+
+.explorebackground {
+  background-image: url(/images/exploreback.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.explore {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+.explore h3 {
+  font-weight: normal;
+  display: none;
+}
+
+.exploretogether {
+  background-color: #ffd900;
+  color: #2b2b2b;
+  text-shadow: 2px 5px 5px #ffffff;
+  line-height: 25px;
+  box-shadow: 0px 0px 5px 0px black;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+
+.exploretogether h2 {
+  text-align: center;
+}
+
+.exploretogether h3 {
+  margin: 20px;
+}
+
 /* Media quieries */
 
 /* General CSS */
@@ -562,5 +608,13 @@ footer ul {
   .contactform h2 {
     margin: auto;
     max-width: 500px;
+  }
+}
+
+/* Explore page */
+
+@media (min-width: 700px) {
+  .explore h3 {
+    display: initial;
   }
 }
