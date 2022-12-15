@@ -525,7 +525,7 @@ footer ul {
   font-size: 13px;
 }
 
-.extitle {
+.exhibitionlist h2 {
   text-align: center;
   border: 5px dotted #f7a000;
   padding: 10px;
@@ -564,6 +564,7 @@ footer ul {
   max-width: 900px;
   padding: 20px;
   margin: auto;
+  font-size: 13px;
 }
 
 .expadding {
@@ -785,6 +786,10 @@ footer ul {
 
 @media (min-width: 700px) {
   .exhibitions h2 {
+    font-size: 20px;
+  }
+
+  .exhibitionlist {
     font-size: 20px;
   }
 }
