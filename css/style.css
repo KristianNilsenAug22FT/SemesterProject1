@@ -3,6 +3,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0 0 0 0;
 }
 
 main {
@@ -173,7 +174,7 @@ footer ul {
   background-position-y: -300px;
   background-position-x: center;
   font-family: "Luckiest Guy", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 0 0 0 0;
+  
 }
 
 .h1index {
@@ -523,6 +524,7 @@ footer ul {
 .exhibitions h2 {
   font-weight: normal;
   font-size: 13px;
+  margin: auto;
 }
 
 .exhibitionlist h2 {
