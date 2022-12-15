@@ -40,7 +40,7 @@ header {
 }
 
 .logo {
-  max-width: 300px;
+  width: 250px;
 }
 
 nav {
@@ -414,8 +414,7 @@ footer ul {
 
 .explorebackground {
   background-image: url(/images/exploreback.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
 }
 
 .explore {
@@ -467,8 +466,142 @@ footer ul {
   padding-top: 5px;
 }
 
-.kidsexplore h3 {
+.teachersexplore {
+  margin-top: 50px;
+  background-color: #ff7b00;
+  color: #2b2b2b;
+  line-height: 25px;
+  box-shadow: 0px 0px 5px 0px black;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.researchersexplore {
+  margin-top: 50px;
+  background-color: #6ad7ff;
+  color: #2b2b2b;
+  line-height: 25px;
+  box-shadow: 0px 0px 5px 0px black;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 30px;
+}
+
+#kidsid {
+  padding-bottom: 40px;
+}
+
+#teacherid {
+  padding-bottom: 40px;
+}
+
+#researcherid {
+  padding-bottom: 40px;
+}
+
+/* Exhibition Page */
+
+.exhibitionbackground {
+  background-image: url(/images/exhibitionback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exhibitions {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.exhibitions h3 {
   font-weight: normal;
+}
+
+.extitle {
+  text-align: center;
+  border: 5px dotted #f7a000;
+  padding: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.exhibitions img {
+  border-radius: 50%;
+  border-style: groove;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px;
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.exhibitions img:hover {
+  border-color: #6ad7ff;
+}
+
+.exbuttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.exhibitionlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #07475f;
+  color: #ffffff;
+  line-height: 25px;
+  box-shadow: 0px 0px 5px 0px black;
+  max-width: 900px;
+  padding: 20px;
+  margin: auto;
+}
+
+.expadding {
+  padding-bottom: 70px;
+}
+
+/* Events Page */
+
+.eventsbackground {
+  background-image: url(/images/eventsback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.events {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 70%;
+  margin: auto;
+  max-width: 900px;
+}
+
+.events h2 {
+  font-size: 17px;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.events h3 {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.events img {
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 50px;
 }
 
 /* Media quieries */
@@ -507,6 +640,10 @@ footer ul {
   .contact {
     font-size: 20px;
     padding-left: 40px;
+  }
+
+  .logo {
+    width: 400px;
   }
 
   /* Index */
@@ -635,6 +772,22 @@ footer ul {
 
 @media (min-width: 700px) {
   .explore h3 {
+    font-size: 17px;
+  }
+
+  .explore {
+    width: 60%;
+  }
+}
+
+/* Events page */
+
+@media (min-width: 700px) {
+  .events h2 {
+    font-size: 20px;
+  }
+
+  .events h3 {
     font-size: initial;
   }
 }
