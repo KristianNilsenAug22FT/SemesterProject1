@@ -500,12 +500,14 @@ footer ul {
 
 .exhibitions img {
   border-radius: 50%;
+  border-color: #ffffff;
   border-style: groove;
   width: 150px;
   height: 150px;
   object-fit: cover;
   margin: 10px;
   box-shadow: 0px 0px 5px 0px black;
+  text-decoration: none;
 }
 
 .exhibitions img:hover {
@@ -675,15 +677,6 @@ footer ul {
   }
 
   .kids {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: initial;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 65px;
-  }
-
-  .researchers {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: initial;
