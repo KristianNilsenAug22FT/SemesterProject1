@@ -171,8 +171,9 @@ footer ul {
 .indexonly {
   background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
-  background-position-y: -300px;
+  background-position-y: -200px;
   background-position-x: center;
+  
   font-family: "Luckiest Guy", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   
 }
