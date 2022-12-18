@@ -298,6 +298,7 @@ footer ul {
   background-image: url(/images/visitus.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
+  background-size: cover;
 }
 
 .visitus {
