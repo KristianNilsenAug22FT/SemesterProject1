@@ -20,4 +20,16 @@ https://github.com/KristianNilsenAug22FT/SemesterProject1
 
 
 References
-Background images: Women clothes - Photo by Jisca Lucia on Unsplash Mens clothes - Photo by suraj kardile on Unsplash Menu background - Photo by Nina Luong on Unsplash
+1. Luckiest guy font fro Google Fonts
+https://fonts.google.com/specimen/Luckiest+Guy
+2. Pictures not given to us from Noroff
+Photo by Ant Rozetsky on Unsplash
+Photo by Chris Nguyen on Unsplash
+Photo by Christina @ wocintechchat.com on Unsplash
+Photo by Desola Lanre-Ologun on Unsplash
+Photo by Graham Holtshausen on Unsplash
+Photo by Jan Kopřiva on Unsplash
+Photo by National Cancer Institute on Unsplash
+Photo by Nicole Baster on Unsplash
+Photo by Possessed Photography on Unsplash
+Photo by William Phipps on Unsplash
